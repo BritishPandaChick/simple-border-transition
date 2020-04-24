@@ -86,9 +86,21 @@ a:hover {
 }
 
 .x8 {
-    border: 50px solid rgba(0, 0, 0, 0.7);
+    border: 50px dashed rgba(0, 0, 0, 0.7);
 }
 
 .x9 {
-    border: 50px solid rgba(0, 0, 0, 0.7);
+    border: 50px dotted rgba(0, 0, 0, 0.7);
+}
+
+.x7:hover {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.x8:hover {
+    border: 1px dashed rgba(0, 0, 0, 0.7);
+}
+
+.x9:hover {
+    border: 1px dotted rgba(0, 0, 0, 0.7);
 }
